@@ -8,7 +8,7 @@ class Config:
     # Admin / Owner IDs (space-separated)
     SUDO = list(map(int, getenv(
         "SUDO",
-        "7554081592 5306138654 7564050858 5656436152"
+        "7554081592 7038515258 7564050858 5656436152"
     ).split()))
 
     MONGO_URI = getenv(
@@ -18,9 +18,9 @@ class Config:
 
     # Posts to copy
     POSTS = [
-        "https://t.me/forward_hack_lnx/166",
-        "https://t.me/forward_hack_lnx/167",
-        "https://t.me/forward_hack_lnx/168"
+        "https://t.me/forward_hack_lnx/235",
+        "https://t.me/forward_hack_lnx/236",
+        "https://t.me/forward_hack_lnx/237"
     ]
 
     # 🚫 ILLEGAL WORDS (BOT SIDE FILTER)
